@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: MyAppLR7
+  datasource:
+    url: jdbc:h2:/Users/fiest/Desktop/MyAppLR7/datatest/students
+  jpa:
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+
+server:
+  port: 8082
